@@ -1,5 +1,6 @@
 // Crystal Collector Javascript Game
 // by Charles Bowden
+// Oct. 2017
 
 	// Variables
 	var gem1;  // Variable to store value of gem1
@@ -14,20 +15,6 @@
 $(document).ready(function() {
 
 	restart();
-	// // Write the Number to Match to the screen
-	// matchNumber = getRandomInt(19, 120);
-	// $("#computer-pick").text("The number to match is ... " + matchNumber)
-
-	// // Generate Starting Values for Gems
-	// gem1 = getRandomInt(1, 12);
-	// gem2 = getRandomInt(1, 12);
-	// gem3 = getRandomInt(1, 12);
-	// gem4 = getRandomInt(1, 12);
-
-	// // Display Initial Player Score and Wins/Loss
-	// $("#playertotal").text(userTotal);
-	// $("#wins").text(wins);
-	// $("#losses").text(losses);
 
 	// Assign numbers to gems 1-4
 	$("#gem1").on("click", function() {
@@ -53,9 +40,6 @@ $(document).ready(function() {
 		$("#playertotal").text(userTotal);
 		gemClick();
 	});
-
-
-
 
 });
 
@@ -100,8 +84,3 @@ function restart() {
 	$("#wins").text(wins);
 	$("#losses").text(losses);
 }
-
-// var newrandom;
-// getRandomInt(19, 120);
-// newrandom = getRandomInt(19, 120);
-// console.log(newrandom);
