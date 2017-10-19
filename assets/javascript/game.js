@@ -69,8 +69,8 @@ function gemClick() {
 
 function restart() {
 	// Write the Number to Match to the screen
-	matchNumber = getRandomInt(19, 120);
-	$("#computer-pick").text("The number to match is ... " + matchNumber)
+	matchNumber = getRandomInt(19, 121);
+	$("#computer-pick").text(matchNumber);
 
 	// Generate Starting Values for Gems
 	gem1 = getRandomInt(1, 12);
