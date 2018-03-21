@@ -10,5 +10,6 @@ Crystal Collector is a game where users attempt to match a randomly generated nu
 * HTML
 * CSS
 * JQuery
+* Bootstrap 3
 
 ## Check out the game here: https://ctbowden.github.io/week-4-game/
